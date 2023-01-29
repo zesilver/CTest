@@ -237,7 +237,7 @@ namespace CsharpStudy
             var iii = 3;
             var fff = 3.12f;
 
-            */
+        
 
             //배열 : int 값의 묶음
 
@@ -279,19 +279,57 @@ namespace CsharpStudy
             ArraySize = System.Console.ReadLine();
 
             LaterArray = new int[Convert.ToInt32(ArraySize)];
+                        string[] food = new string[4];
+            food[0] = "떡볶이";
+            food[1] = "김밥";
+            food[2] = "라면";
+            food[3] = "라볶이";
 
-
-
+                */
 
             string[] _lang = new string[3];
             _lang[0] = "c";
             _lang[1] = "c++";
             _lang[2] = "c#";
 
-            System.Console.WriteLine($"0번; 값은 {_lang[0]} 입니다.");
+            System.Console.WriteLine($"0번 값은 {_lang[0]} 입니다.");
             _lang[0] = "요술봉 얍";
 
             System.Console.WriteLine($"0번 값은 {_lang[0]} 입니다.");
+
+            //식당에 음식이 떡볶이, 김밥, 라면, 라볶이가 있다
+            //이중에 숫자를 입력받으면 입력받은 값은 비어있게 된다.
+
+            //최초 음식들과 숫자를 입력받았을 때 음식을 출력하고 비어있게 되었다라는 결과값도 출력하라
+
+            string[] food = new string[4] { "떡볶이", "김밥", "라면", "라볶이" };
+
+            System.Console.WriteLine($"주문한 음식은 {food[0]} 입니다.");
+            System.Console.WriteLine($"주문한 음식은 {food[1]} 입니다.");
+            System.Console.WriteLine($"주문한 음식은 {food[2]} 입니다.");
+            System.Console.WriteLine($"주문한 음식은 {food[3]} 입니다.");
+
+            System.Console.WriteLine("숫자를 입력하세요");
+
+            string foodNum = System.Console.ReadLine();
+            int number = Convert.ToInt32(foodNum);
+
+            food[number] = "";
+
+            System.Console.WriteLine($"주문한 음식은 {food[0]} 입니다.");
+            System.Console.WriteLine($"주문한 음식은 {food[1]} 입니다.");
+            System.Console.WriteLine($"주문한 음식은 {food[2]} 입니다.");
+            System.Console.WriteLine($"주문한 음식은 {food[3]} 입니다.");
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
