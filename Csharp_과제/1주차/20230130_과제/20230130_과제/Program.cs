@@ -1,0 +1,23 @@
+﻿// See https://aka.ms/new-console-template for more information
+System.Console.WriteLine("안녕하세요");
+System.Console.Write("저의 이름은 서영은");
+System.Console.WriteLine(" 입니다.");
+System.Console.Write("저는 직장인");
+System.Console.Write(" 입니다");
+System.Console.WriteLine(".");
+System.Console.Write("저의 키는");
+System.Console.Write(" 164");
+System.Console.WriteLine("cm 입니다.");
+System.Console.Write("저의 취미는 ");
+System.Console.WriteLine("뮤지컬 보기 입니다.");
+System.Console.Write("좋아하는 뮤지컬은");
+System.Console.WriteLine("모차르트 입니다.");
+System.Console.Write("그 이유는 ");
+System.Console.Write("노래가 취향에");
+System.Console.WriteLine("맞습니다.");
+System.Console.Write("어제는");
+System.Console.WriteLine("웨스트사이드스토리를 보고 왔습니다.");
+System.Console.Write("월급날이 "); 
+System.Console.Write("빨리 왔으면 좋");
+System.Console.WriteLine("겠습니다.");
+System.Console.WriteLine("앞으로 잘 부탁드립니다.");
