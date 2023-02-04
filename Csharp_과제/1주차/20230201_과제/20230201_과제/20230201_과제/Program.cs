@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 System.Console.Write("이름을 입력하세요 : ");
 var a = System.Console.ReadLine();
-System.Console.Write("탄생년도를입력하세요 : ");
+System.Console.Write("탄생년도를 입력하세요 : ");
 var b = System.Console.ReadLine();
 int birth = Convert.ToInt32(b);
 System.Console.Write("주소를 입력하세요 : ");
