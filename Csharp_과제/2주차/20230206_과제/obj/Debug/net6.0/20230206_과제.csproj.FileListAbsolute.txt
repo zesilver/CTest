@@ -1,0 +1,15 @@
+C:\Users\서영은\Desktop\깃허브클론\Csharp_과제\2주차\20230206_과제\20230206_과제\20230206_과제\bin\Debug\net6.0\20230206_과제.exe
+C:\Users\서영은\Desktop\깃허브클론\Csharp_과제\2주차\20230206_과제\20230206_과제\20230206_과제\bin\Debug\net6.0\20230206_과제.deps.json
+C:\Users\서영은\Desktop\깃허브클론\Csharp_과제\2주차\20230206_과제\20230206_과제\20230206_과제\bin\Debug\net6.0\20230206_과제.runtimeconfig.json
+C:\Users\서영은\Desktop\깃허브클론\Csharp_과제\2주차\20230206_과제\20230206_과제\20230206_과제\bin\Debug\net6.0\20230206_과제.dll
+C:\Users\서영은\Desktop\깃허브클론\Csharp_과제\2주차\20230206_과제\20230206_과제\20230206_과제\bin\Debug\net6.0\20230206_과제.pdb
+C:\Users\서영은\Desktop\깃허브클론\Csharp_과제\2주차\20230206_과제\20230206_과제\20230206_과제\obj\Debug\net6.0\20230206_과제.csproj.AssemblyReference.cache
+C:\Users\서영은\Desktop\깃허브클론\Csharp_과제\2주차\20230206_과제\20230206_과제\20230206_과제\obj\Debug\net6.0\20230206_과제.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\서영은\Desktop\깃허브클론\Csharp_과제\2주차\20230206_과제\20230206_과제\20230206_과제\obj\Debug\net6.0\20230206_과제.AssemblyInfoInputs.cache
+C:\Users\서영은\Desktop\깃허브클론\Csharp_과제\2주차\20230206_과제\20230206_과제\20230206_과제\obj\Debug\net6.0\20230206_과제.AssemblyInfo.cs
+C:\Users\서영은\Desktop\깃허브클론\Csharp_과제\2주차\20230206_과제\20230206_과제\20230206_과제\obj\Debug\net6.0\20230206_과제.csproj.CoreCompileInputs.cache
+C:\Users\서영은\Desktop\깃허브클론\Csharp_과제\2주차\20230206_과제\20230206_과제\20230206_과제\obj\Debug\net6.0\20230206_과제.dll
+C:\Users\서영은\Desktop\깃허브클론\Csharp_과제\2주차\20230206_과제\20230206_과제\20230206_과제\obj\Debug\net6.0\refint\20230206_과제.dll
+C:\Users\서영은\Desktop\깃허브클론\Csharp_과제\2주차\20230206_과제\20230206_과제\20230206_과제\obj\Debug\net6.0\20230206_과제.pdb
+C:\Users\서영은\Desktop\깃허브클론\Csharp_과제\2주차\20230206_과제\20230206_과제\20230206_과제\obj\Debug\net6.0\20230206_과제.genruntimeconfig.cache
+C:\Users\서영은\Desktop\깃허브클론\Csharp_과제\2주차\20230206_과제\20230206_과제\20230206_과제\obj\Debug\net6.0\ref\20230206_과제.dll
