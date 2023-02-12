@@ -12,3 +12,10 @@ C:\Users\admin\Documents\서영은\CsharpStudy\CsharpStudy\obj\Debug\CsharpStudy
 C:\Users\admin\Documents\서영은\CsharpStudy\CsharpStudy\obj\Debug\CsharpStudy.csproj.CoreCompileInputs.cache
 C:\Users\admin\Documents\서영은\CsharpStudy\CsharpStudy\obj\Debug\CsharpStudy.exe
 C:\Users\admin\Documents\서영은\CsharpStudy\CsharpStudy\obj\Debug\CsharpStudy.pdb
+C:\Users\admin\Documents\서영은\Csharp_과제\CsharpStudy\CsharpStudy\bin\Debug\CsharpStudy.exe.config
+C:\Users\admin\Documents\서영은\Csharp_과제\CsharpStudy\CsharpStudy\bin\Debug\CsharpStudy.exe
+C:\Users\admin\Documents\서영은\Csharp_과제\CsharpStudy\CsharpStudy\bin\Debug\CsharpStudy.pdb
+C:\Users\admin\Documents\서영은\Csharp_과제\CsharpStudy\CsharpStudy\obj\Debug\CsharpStudy.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\서영은\Csharp_과제\CsharpStudy\CsharpStudy\obj\Debug\CsharpStudy.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\서영은\Csharp_과제\CsharpStudy\CsharpStudy\obj\Debug\CsharpStudy.exe
+C:\Users\admin\Documents\서영은\Csharp_과제\CsharpStudy\CsharpStudy\obj\Debug\CsharpStudy.pdb

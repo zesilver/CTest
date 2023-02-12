@@ -833,7 +833,7 @@ namespace CsharpStudy
             else
             {
                 System.Console.WriteLine("다시 입력해주세요");
-            }*/
+            }
 
             System.Console.Write("숫자를 입력하세요 : ");
             var a = System.Console.ReadLine();
@@ -841,9 +841,200 @@ namespace CsharpStudy
 
             Sentence(b);
             
+
+
+            //클래스, 상속, 키 입력
+            #region 키 입력하는 코드
+            ConsoleKeyInfo cski;
+
+            int x = 10;
+            int y = 10;
+
+            while (true)
+            {
+                Console.Clear();
+
+                Console.SetCursorPosition(x, y);
+
+                Console.Write("#");
+
+                cski = Console.ReadKey(true);
+
+                switch (cski.Key)
+                {
+                    case ConsoleKey.LeftArrow:
+                        x--;
+                        break;
+                    case ConsoleKey.RightArrow:
+                        x++;
+                        break;
+                    case ConsoleKey.UpArrow:
+                        y--;
+                        break;
+                    case ConsoleKey.DownArrow:
+                        y++;
+                        break;
+                }
+            }
+            #endregion
+
+            //1. 산술 이항 하나씩 쓰기 + - * / % 출력하기 5줄
+            int a = 10;
+            int b = 5;
+
+            System.Console.WriteLine($"+ : {a + b}");
+            System.Console.WriteLine($"- : {a - b}");
+            System.Console.WriteLine($"* : {a * b}");
+            System.Console.WriteLine($"/ : {a / b}");
+            System.Console.WriteLine($"% : {a % b}");
+
+
+            //2. 할당(+=, -=, *=. /=, %=)
+            int n = 123;
+
+            System.Console.WriteLine($"+= : {n += 2}");
+            System.Console.WriteLine($"-= : {n -= 2}");
+            System.Console.WriteLine($"*= : {n *= 2}");
+            System.Console.WriteLine($"/= : {n /= 2}");
+            System.Console.WriteLine($"%= : {n %= 2}");
+
+
+            //3. 증감
+            int cNumber = 5;
+
+            System.Console.WriteLine(++cNumber);
+            System.Console.WriteLine(cNumber++);
+            System.Console.WriteLine(cNumber++);
+            System.Console.WriteLine(++cNumber);
+
+
+            //4. 2개 숫자 입력후 A가 짝수이고 B가 5보다 큰가를 if문으로
+            //5. 2개 숫자 입력후 A가 홀수 이거나 B가 3보다 작은가를 else if
+            //6. else 문으로 없음 출력
+
+            System.Console.Write("첫번째 숫자: ");
+            var a = System.Console.ReadLine();
+            System.Console.Write("두번째 숫자: ");
+            var b = System.Console.ReadLine();
+            int aNum = Convert.ToInt32(a);
+            int bNum = Convert.ToInt32(b);
+
+            if (aNum % 2 == 0 && bNum > 5)
+            {
+                System.Console.WriteLine($"{aNum}은/는 짝수이고, {bNum}은/는 5보다 크다");
+            }
+            else if (aNum % 2 == 1 || bNum > 3)
+            {
+                System.Console.WriteLine($"{aNum}은/는 홀수이거나, {bNum}은/는 3보다 크다");
+            }
+            else
+            {
+                System.Console.WriteLine("해당사항 없음");
+            }
+
+
+            //7. 숫자 입력받은거 만큼 문장 출력(while)
+
+
+            System.Console.Write("숫자를 입력하세요: ");
+            var c = System.Console.ReadLine();
+            int cNum = Convert.ToInt32(c);
+            while (0 < cNum)
+            {
+                System.Console.WriteLine("while문장입니다.");
+
+                cNum--;
+            }
+
+            //8. 숫자 입력받은거 만큼 문장 출력(for)
+            System.Console.Write("숫자를 입력하세요: ");
+            var d = System.Console.ReadLine();
+            int dNum = Convert.ToInt32(d);
+            for (int i = 0; i < dNum; i++)
+            {
+                System.Console.WriteLine("for문장입니다.");
+            }
+
+            //9. 위에 했던 4,5,6,7,8을 메소드로 뽑아서 실행하기
+            you(5, 6);
+
+
+            //10. for문 안에서 숫자를 계속 입력받는다.
+            //1.숫자가 10인경우 break로 for문 종료
+            //2.숫자가 짝수인 경우 continue
+            //3.그 외의 숫자인 경우 "다음 숫자 입력 출력"
+
+            
+            for (; ; )
+            {
+                System.Console.Write("숫자를 입력하세요 : ");
+                var a = System.Console.ReadLine();
+                int aNum = Convert.ToInt32(a);
+
+                if (aNum == 10)
+                {
+                    break;
+                }
+                else if (aNum % 2 == 0)
+                {
+                    continue;
+                }
+                else {
+                    System.Console.WriteLine("다음 숫자를 입력하세요");
+                }
+                
+            }
+
+            student AStudent = new student();
+
+            AStudent.name = "라면";
+            AStudent.age = 30;
+
+            System.Console.WriteLine(AStudent.name);
+            System.Console.WriteLine(AStudent.age);
+
+            student BStudent = new student();
+            BStudent.name = "짬뽕";
+            BStudent.age = 50;
+
+            System.Console.WriteLine(BStudent.name);
+            System.Console.WriteLine(BStudent.age);*/
+
+            Student AStudent = new Student();
+            AStudent.name = "짬뽕";
+            AStudent.age = 20;
+
+            AStudent.WritelineStudentInfo();
+        }
+       
+   
+
+        private static int you(int Number4, int Number5)
+        {
+            System.Console.Write($"첫번째 숫자: {Number4}");
+            var a = System.Console.ReadLine();
+            int aNum = Convert.ToInt32(a);
+            System.Console.Write($"두번째 숫자: {Number5}");
+            var b = System.Console.ReadLine();
+            int bNum = Convert.ToInt32(b);
+
+            if (aNum % 2 == 0 && bNum > 5)
+            {
+                System.Console.WriteLine($"{aNum}은/는 짝수이고, {bNum}은/는 5보다 크다");
+            }
+            else if (aNum % 2 == 1 || bNum > 3)
+            {
+                System.Console.WriteLine($"{aNum}은/는 홀수이거나, {bNum}은/는 3보다 크다");
+            }
+            else
+            {
+                System.Console.WriteLine("해당사항 없음");
+            }
+
+           return Number4;
         }
 
-   
+
         private static int Sentence(int Number)
         {
             while (Number > 0)
@@ -929,4 +1120,16 @@ namespace CsharpStudy
         }
 
     }
+    class Student
+    {
+        public string name;
+        public int age;
+
+        public void WritelineStudentInfo()
+        {
+            System.Console.WriteLine($"학생의 이름은 {name}");
+            System.Console.WriteLine($"학생의 이름은 {age}");
+        }
+    }
 }
+
