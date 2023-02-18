@@ -1,0 +1,15 @@
+C:\Users\서영은\Desktop\깃허브복사\Csharp_과제\3주차\20230213_과제\20230213_과제\2번째\obj\Debug\net7.0\2번째.csproj.AssemblyReference.cache
+C:\Users\서영은\Desktop\깃허브복사\Csharp_과제\3주차\20230213_과제\20230213_과제\2번째\obj\Debug\net7.0\2번째.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\서영은\Desktop\깃허브복사\Csharp_과제\3주차\20230213_과제\20230213_과제\2번째\obj\Debug\net7.0\2번째.AssemblyInfoInputs.cache
+C:\Users\서영은\Desktop\깃허브복사\Csharp_과제\3주차\20230213_과제\20230213_과제\2번째\obj\Debug\net7.0\2번째.AssemblyInfo.cs
+C:\Users\서영은\Desktop\깃허브복사\Csharp_과제\3주차\20230213_과제\20230213_과제\2번째\obj\Debug\net7.0\2번째.csproj.CoreCompileInputs.cache
+C:\Users\서영은\Desktop\깃허브복사\Csharp_과제\3주차\20230213_과제\20230213_과제\2번째\bin\Debug\net7.0\2번째.exe
+C:\Users\서영은\Desktop\깃허브복사\Csharp_과제\3주차\20230213_과제\20230213_과제\2번째\bin\Debug\net7.0\2번째.deps.json
+C:\Users\서영은\Desktop\깃허브복사\Csharp_과제\3주차\20230213_과제\20230213_과제\2번째\bin\Debug\net7.0\2번째.runtimeconfig.json
+C:\Users\서영은\Desktop\깃허브복사\Csharp_과제\3주차\20230213_과제\20230213_과제\2번째\bin\Debug\net7.0\2번째.dll
+C:\Users\서영은\Desktop\깃허브복사\Csharp_과제\3주차\20230213_과제\20230213_과제\2번째\bin\Debug\net7.0\2번째.pdb
+C:\Users\서영은\Desktop\깃허브복사\Csharp_과제\3주차\20230213_과제\20230213_과제\2번째\obj\Debug\net7.0\2번째.dll
+C:\Users\서영은\Desktop\깃허브복사\Csharp_과제\3주차\20230213_과제\20230213_과제\2번째\obj\Debug\net7.0\refint\2번째.dll
+C:\Users\서영은\Desktop\깃허브복사\Csharp_과제\3주차\20230213_과제\20230213_과제\2번째\obj\Debug\net7.0\2번째.pdb
+C:\Users\서영은\Desktop\깃허브복사\Csharp_과제\3주차\20230213_과제\20230213_과제\2번째\obj\Debug\net7.0\2번째.genruntimeconfig.cache
+C:\Users\서영은\Desktop\깃허브복사\Csharp_과제\3주차\20230213_과제\20230213_과제\2번째\obj\Debug\net7.0\ref\2번째.dll
