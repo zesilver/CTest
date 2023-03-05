@@ -4,16 +4,67 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*public enum thePlayerState
+{ 
+    //열거형 네임스페이스 밖에 쓰는게 좋음, 상태 패턴값
+
+    idle, //서있기
+    walk, //걷기
+    run //뛰기
+}*/
+
 namespace Homework
 {
+    interface IInterfaceTest
+    {
+        void TestInterfaceMethod();
+    }
+    class InterfafceTEstClassFirst : IInterfaceTest
+    {
+        public void TestInterfaceMethod()
+        {
+            System.Console.WriteLine("Hello");
+        }
+    }
+    class InterfafceTEstClassSecond : IInterfaceTest
+    {
+        public void TestInterfaceMethod()
+        {
+            System.Console.WriteLine("Hi");
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
         {
+            InterfafceTEstClassFirst interfaceFirst = new InterfafceTEstClassFirst();
+            interfaceFirst.TestInterfaceMethod();
 
+            InterfafceTEstClassSecond interfaceFirstSecond = new InterfafceTEstClassSecond();
+            interfaceFirstSecond.TestInterfaceMethod();
+
+            //프로퍼티
+            //get, set
+            /*
+            thePlayerState myState = thePlayerState.idle;
+
+            switch (myState)
+            {
+                case thePlayerState.idle:
+                    System.Console.WriteLine("I'm idle");
+                    break;
+                case thePlayerState.walk:
+                    System.Console.WriteLine("I'm walking");
+                    break;
+                case thePlayerState.run:
+                    System.Console.WriteLine("I'm running");
+                    break;
+            }
+               
             //1. 학생클래스를 만들어서 학생 하나의 정보를 입력받는다(ReadLine)
 
-            /*
+            
             Student AStudent = new Student();
 
             AStudent.name = System.Console.ReadLine();
@@ -107,7 +158,7 @@ namespace Homework
                 countBookNumber++;
             } while (library.AskKeepPutData());
 
-            library.SearchTitle();*/
+            library.SearchTitle();
 
             //학생 클래스 이름 반 특정키까지 반복
             //해당 반 학생 이름 출력
@@ -121,6 +172,12 @@ namespace Homework
             } while (student.inputInfo());
 
             student.searchClass();
+
+            Random rand = new Random();
+            int randomInt = rand.Next(0, 10);
+            Console.WriteLine("0~10사이 랜덤 : " + randomInt);*/
+
+
         }
     }
 

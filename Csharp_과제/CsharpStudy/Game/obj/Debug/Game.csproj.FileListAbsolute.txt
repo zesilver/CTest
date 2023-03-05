@@ -1,0 +1,7 @@
+C:\Users\admin\Documents\서영은\4주차\Csharp_과제\CsharpStudy\Game\bin\Debug\Game.exe.config
+C:\Users\admin\Documents\서영은\4주차\Csharp_과제\CsharpStudy\Game\bin\Debug\Game.exe
+C:\Users\admin\Documents\서영은\4주차\Csharp_과제\CsharpStudy\Game\bin\Debug\Game.pdb
+C:\Users\admin\Documents\서영은\4주차\Csharp_과제\CsharpStudy\Game\obj\Debug\Game.csproj.AssemblyReference.cache
+C:\Users\admin\Documents\서영은\4주차\Csharp_과제\CsharpStudy\Game\obj\Debug\Game.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\서영은\4주차\Csharp_과제\CsharpStudy\Game\obj\Debug\Game.exe
+C:\Users\admin\Documents\서영은\4주차\Csharp_과제\CsharpStudy\Game\obj\Debug\Game.pdb

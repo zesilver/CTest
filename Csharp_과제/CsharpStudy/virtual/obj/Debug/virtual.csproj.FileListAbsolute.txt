@@ -1,0 +1,6 @@
+C:\Users\admin\Documents\서영은\4주차\Csharp_과제\CsharpStudy\virtual\bin\Debug\@virtual.exe.config
+C:\Users\admin\Documents\서영은\4주차\Csharp_과제\CsharpStudy\virtual\bin\Debug\@virtual.exe
+C:\Users\admin\Documents\서영은\4주차\Csharp_과제\CsharpStudy\virtual\bin\Debug\@virtual.pdb
+C:\Users\admin\Documents\서영은\4주차\Csharp_과제\CsharpStudy\virtual\obj\Debug\virtual.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\서영은\4주차\Csharp_과제\CsharpStudy\virtual\obj\Debug\@virtual.exe
+C:\Users\admin\Documents\서영은\4주차\Csharp_과제\CsharpStudy\virtual\obj\Debug\@virtual.pdb
